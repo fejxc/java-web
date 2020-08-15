@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+</head>
+
+<body>
+	<!--第1种绑定方式-->
+	<input type="button" name="btn" value="你点了我会笑的" onclick="add();" />
+	
+	<br /><br />
+	
+	
+	<!--第2种绑定方式-->
+<input type="button" name="btn" value="你点了我会嘿嘿嘿" id="inputId" />
+<input type="button" name="btn" value="你点了我会考试必过" id="pass" />
+		<br /><br />
+
+<input type="button" name="btn" value="你点了我会kaixin" onclick="alert('课本的点击');" />
+<!--注意onclick="alert('课本的点击');文字中要用单引号-->
+
+</body>
+<script type="text/javascript"> 
+	function add(){
+		alert("hahahahahah~")
+	}
+	
+	document.getElementById("inputId").onclick=function(){
+		alert("heiheiheiheihehiehei~~~~~~")
+	}
+	document.getElementById("pass").onclick=function(){
+		alert("loading>>>>>>")
+	}
+</script>
+</html>

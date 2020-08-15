@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.main {
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 0px 0px;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+	color: #000000; /*#666666*/
+	text-align: center;
+	vertical-align: top;
+	
+}
+#divhead {
+	width: 100%;
+	background-color: #FFFAFA;
+}
+.headtable {
+	width: 100%;
+}
+
+.headtable td {
+	padding: 10px 50px 25px 135px;
+}
+#select{
+	width: 100%;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: black;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+	background-color: #F5F5F5;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	font-size: 22px;
+	color:black;
+}
+#search{
+	width: 100%;
+	background-color: #FAFAD2;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	color: black;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+}
+#divcenter{
+	width: 100%;
+}
+#divbook {
+	width: 100%;
+	background-color: #FFFAFA;
+	border: 1px solid #EEEDDB;
+	
+	
+}
+#divend {
+	width: 100%;
+	clear: both;
+	background-color:#FFFAFA;
+	margin-top: 15px;
+	
+}
+#name{
+	color: black;
+}
+#zhuce{
+	color:blue;
+	background-color: #D4F2E7;
+}
+#ok{
+	font-weight: bold;
+	color:red;
+	text-align: center;
+	font-size: 50px;
+}

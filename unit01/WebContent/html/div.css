@@ -1,0 +1,6 @@
+div{ color:blue; font-size:22px; }
+.testClass{color:red;font-family:"黑体";font-size:50px;}
+#testId{color:blue;font-family:"黑体";font-size:40px;}
+p.testClass1{color:black;font-family:"黑体";font-size:60px;}
+.testClass2{color:red;font-family:"黑体";font-size:70px;}
+div p{border: 2px solid red;color:#B422EB;font-family:"黑体";font-size:80px;
